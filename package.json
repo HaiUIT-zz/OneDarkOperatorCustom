@@ -2,8 +2,22 @@
     "name": "onedark-operator-custom",
     "displayName": "OneDark-Operator-Custom",
     "description": "A custom theme from Fantastic One Operator Mono theme",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "publisher": "HaiUIT",
+	"license": "Apache-2.0",
+	"icon": "logo.png",
+	"galleryBanner": {
+		"color": "#0b1015",
+		"theme": "dark"
+	},
+	"homepage": "https://github.com/HaiUIT/OneDarkOperatorCustom/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/HaiUIT/OneDarkOperatorCustom.git"
+	},
+	"bugs": {
+		"url": "https://github.com/HaiUIT/OneDarkOperatorCustom/issues"
+	},
     "engines": {
         "vscode": "^1.22.0"
     },
@@ -13,10 +27,15 @@
     "contributes": {
         "themes": [
             {
-                "label": "OneDark Operator Custom",
-                "uiTheme": "vs-dark",
-                "path": "./themes/OneDark Operator Custom-color-theme.json"
-            }
+				"label": "One Dark Operator Mono Custom",
+				"uiTheme": "vs-dark",
+				"path": "./themes/one.json"
+			},
+			{
+				"label": "One Dark Operator Mono Custom Italic",
+				"uiTheme": "vs-dark",
+				"path": "./themes/oneItalic.json"
+			}
         ]
     }
 }

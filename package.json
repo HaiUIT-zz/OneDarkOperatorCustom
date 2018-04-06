@@ -1,0 +1,22 @@
+{
+    "name": "onedark-operator-custom",
+    "displayName": "OneDark-Operator-Custom",
+    "description": "A custom theme from Fantastic One Operator Mono theme",
+    "version": "0.0.1",
+    "publisher": "HaiUIT",
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "OneDark Operator Custom",
+                "uiTheme": "vs-dark",
+                "path": "./themes/OneDark Operator Custom-color-theme.json"
+            }
+        ]
+    }
+}

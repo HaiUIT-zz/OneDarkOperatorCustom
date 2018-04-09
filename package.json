@@ -2,7 +2,7 @@
     "name": "onedark-operator-custom",
     "displayName": "OneDark-Operator-Custom",
     "description": "A custom theme from Fantastic One Operator Mono theme",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "publisher": "HaiUIT",
 	"license": "Apache-2.0",
 	"icon": "logo.png",
